@@ -1,0 +1,17 @@
+[I 2023-11-21 23:49:40.623 LabApp] JupyterLab extension loaded from /cluster/apps/eb/software/Anaconda3/2022.05/lib/python3.9/site-packages/jupyterlab
+[I 2023-11-21 23:49:40.624 LabApp] JupyterLab application directory is /cluster/apps/eb/software/Anaconda3/2022.05/share/jupyter/lab
+[I 23:49:40.634 NotebookApp] Loading lmod extension
+[I 23:49:40.635 NotebookApp] The port 8888 is already in use, trying another port.
+[I 23:49:40.635 NotebookApp] Serving notebooks from local directory: /cluster/home/kristiwk/tdt17/miniproject
+[I 23:49:40.635 NotebookApp] Jupyter Notebook 6.4.8 is running at:
+[I 23:49:40.636 NotebookApp] http://localhost:8889/?token=c45e4d5a94c803036713a934debd86212724266a95bccd72
+[I 23:49:40.636 NotebookApp]  or http://127.0.0.1:8889/?token=c45e4d5a94c803036713a934debd86212724266a95bccd72
+[I 23:49:40.636 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 23:49:40.641 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///cluster/home/kristiwk/.local/share/jupyter/runtime/nbserver-3818041-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8889/?token=c45e4d5a94c803036713a934debd86212724266a95bccd72
+     or http://127.0.0.1:8889/?token=c45e4d5a94c803036713a934debd86212724266a95bccd72
+slurmstepd: error: *** JOB 18859348 ON idun-04-10 CANCELLED AT 2023-11-23T23:49:59 DUE TO TIME LIMIT ***

@@ -1,0 +1,66 @@
+[I 2023-11-25 10:12:37.130 LabApp] JupyterLab extension loaded from /cluster/apps/eb/software/Anaconda3/2022.05/lib/python3.9/site-packages/jupyterlab
+[I 2023-11-25 10:12:37.131 LabApp] JupyterLab application directory is /cluster/apps/eb/software/Anaconda3/2022.05/share/jupyter/lab
+[I 10:12:37.149 NotebookApp] Loading lmod extension
+[I 10:12:37.150 NotebookApp] The port 8888 is already in use, trying another port.
+[I 10:12:37.151 NotebookApp] Serving notebooks from local directory: /cluster/home/kristiwk/tdt17/miniproject
+[I 10:12:37.151 NotebookApp] Jupyter Notebook 6.4.8 is running at:
+[I 10:12:37.151 NotebookApp] http://localhost:8889/?token=b863687bb528c4db2405fa1d2ca3b094325c73dac49477a2
+[I 10:12:37.151 NotebookApp]  or http://127.0.0.1:8889/?token=b863687bb528c4db2405fa1d2ca3b094325c73dac49477a2
+[I 10:12:37.151 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 10:12:37.160 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///cluster/home/kristiwk/.local/share/jupyter/runtime/nbserver-830470-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8889/?token=b863687bb528c4db2405fa1d2ca3b094325c73dac49477a2
+     or http://127.0.0.1:8889/?token=b863687bb528c4db2405fa1d2ca3b094325c73dac49477a2
+[I 10:13:51.021 NotebookApp] 302 GET /?token=b863687bb528c4db2405fa1d2ca3b094325c73dac49477a2 (127.0.0.1) 0.530000ms
+[W 10:13:53.436 NotebookApp] 404 GET /server-proxy/servers-info (127.0.0.1) 9.770000ms referer=http://127.0.0.1:8889/tree
+[I 10:14:29.378 NotebookApp] Creating new notebook in 
+[I 10:14:32.629 NotebookApp] Kernel started: 65e95a49-9328-4feb-97d1-f0bd855c9533, name: python3
+[I 10:16:32.630 NotebookApp] Saving file at /Seg2Out.ipynb
+[I 10:18:33.104 NotebookApp] Saving file at /Seg2Out.ipynb
+[I 10:20:32.607 NotebookApp] Saving file at /Seg2Out.ipynb
+[I 10:22:32.627 NotebookApp] Saving file at /Seg2Out.ipynb
+[I 10:24:33.331 NotebookApp] Saving file at /Seg2Out.ipynb
+[I 10:25:28.243 NotebookApp] Creating new directory in 
+[I 10:26:12.392 NotebookApp] Creating new directory in /maps
+[I 10:26:24.174 NotebookApp] New terminal with automatic name: 1
+TermSocket.open: 1
+TermSocket.open: Opened 1
+Websocket closed
+[I 10:26:27.665 NotebookApp] Creating new directory in /maps
+[I 10:27:03.848 NotebookApp] Uploading file to /maps/train/3405_10906.jpg
+[I 10:27:06.177 NotebookApp] Uploading file to /maps/train/3405_10901.jpg
+[I 10:27:06.899 NotebookApp] Uploading file to /maps/train/3405_10900.jpg
+[I 10:27:07.583 NotebookApp] Uploading file to /maps/train/3404_10921.jpg
+[I 10:27:08.113 NotebookApp] Uploading file to /maps/train/3404_10920.jpg
+[I 10:27:09.252 NotebookApp] Uploading file to /maps/train/3404_10910.jpg
+[I 10:27:21.908 NotebookApp] Uploading file to /maps/train/3404_10908.jpg
+[I 10:27:22.815 NotebookApp] Uploading file to /maps/train/3404_10907.jpg
+[I 10:27:23.356 NotebookApp] Uploading file to /maps/train/3404_10901.jpg
+[I 10:27:23.988 NotebookApp] Uploading file to /maps/train/3404_10900.jpg
+[I 10:27:24.539 NotebookApp] Uploading file to /maps/train/3403_10921.jpg
+[I 10:27:25.437 NotebookApp] Uploading file to /maps/train/3403_10919.jpg
+[I 10:27:30.773 NotebookApp] Uploading file to /maps/train/3403_10920.jpg
+[I 10:28:16.093 NotebookApp] Shutting down on /api/shutdown request.
+[I 10:28:16.095 NotebookApp] Shutting down 1 kernel
+[I 10:28:18.726 NotebookApp] Kernel shutdown: 65e95a49-9328-4feb-97d1-f0bd855c9533
+[I 10:28:18.727 NotebookApp] Shutting down 1 terminal
+[I 10:28:18.729 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+kernel 65e95a49-9328-4feb-97d1-f0bd855c9533 restarted
+[E 10:28:18.730 NotebookApp] Exception in callback <bound method KernelRestarter.poll of <jupyter_client.ioloop.restarter.IOLoopKernelRestarter object at 0x14c9451a59d0>>
+    Traceback (most recent call last):
+      File "/cluster/apps/eb/software/Anaconda3/2022.05/lib/python3.9/site-packages/tornado/ioloop.py", line 905, in _run
+        return self.callback()
+      File "/cluster/apps/eb/software/Anaconda3/2022.05/lib/python3.9/site-packages/jupyter_client/restarter.py", line 116, in poll
+        self.kernel_manager.restart_kernel(now=True, newports=newports)
+      File "/cluster/apps/eb/software/Anaconda3/2022.05/lib/python3.9/site-packages/jupyter_client/manager.py", line 503, in restart_kernel
+        self.shutdown_kernel(now=now, restart=True)
+      File "/cluster/apps/eb/software/Anaconda3/2022.05/lib/python3.9/site-packages/jupyter_client/manager.py", line 441, in shutdown_kernel
+        self.interrupt_kernel()
+      File "/cluster/apps/eb/software/Anaconda3/2022.05/lib/python3.9/site-packages/jupyter_client/manager.py", line 597, in interrupt_kernel
+        raise RuntimeError("Cannot interrupt kernel. No kernel is running!")
+    RuntimeError: Cannot interrupt kernel. No kernel is running!
+[I 10:28:18.747 NotebookApp] EOF on FD 13; stopping reading
+[I 10:28:18.847 NotebookApp] Terminal 1 closed
